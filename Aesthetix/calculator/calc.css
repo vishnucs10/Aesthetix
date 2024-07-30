@@ -1,0 +1,56 @@
+.bt{
+    margin-top: 50px;
+    padding: 80px;
+    text-align: center;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    margin-left: 380px;
+    background-color:rgb(214, 203, 154);
+    border-radius: 10px;
+}
+.head{
+    margin-top: -60px;
+    font-family:fantasy;
+    letter-spacing: 20px;
+    color: rgb(61, 60, 60);
+    font-size: 35px;
+
+}
+.tp{
+    border-radius: 10px;
+    width: 400px;
+    height: 55px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(158, 154, 154);
+    font-size: 25px;
+    text-shadow: 50px;
+}
+button{
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 45px;
+    color: rgb(155, 241, 114);
+    background-color: rgb(78, 75, 75);
+    
+}
+img{
+    height: 100%;
+    width: 100%
+}
+.but{
+     letter-spacing: 30px;
+}
+#display{
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+body{
+    background-image: url(/img/pexels-scottwebb-2117938.jpg);
+    display: flex;
+    
+}
+    
+    

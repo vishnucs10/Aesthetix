@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    
+    <div>
+        
+    </div>
+    
+    <div class="bt">
+        
+        <h3 class="head">CASIO</h3>
+        <input type="text" class="tp" name="input" id="display">
+        <br><br>
+        <div class="but">
+    <button type="button" onclick="getValue('1')">1</button>
+    <button type="button" onclick="getValue('2')">2</button>
+    <button type="button" onclick="getValue('3')">3</button>  
+    <button style="background-color: rgb(180, 8, 8);" type="button" onclick="getValue('C')">C</button>
+          <br><br>
+    <button type="button" onclick="getValue('4')">4</button>
+    <button type="button" onclick="getValue('5')">5</button>
+    <button type="button" onclick="getValue('6')">6</button>
+    <button style="background-color:rgb(180,8,8);" type="button" onclick="getValue('+')">+</button>
+          <br><br>
+    <button type="button" onclick="getValue('7')">7</button>
+    <button type="button" onclick="getValue('8')">8</button>
+    <button type="button" onclick="getValue('9')">9</button>
+    <button style="background-color:rgb(180,8,8);" type="button" onclick="getValue('-')">-</button>
+         <br><br>
+    <button style="background-color:rgb(180,8,8);" type="button" onclick="getValue('*')">X</button>
+    <button style="background-color:rgb(180,8,8);" type="button" onclick="getValue('0')">0</button>
+    <button style="background-color:rgb(180,8,8);" type="button" onclick="getValue('/')">/</button>
+    <button style="background-color:rgb(180,8,8);" type="button" onclick="getValue('=')">=</button>
+        </div>
+    </div>
+    <script>
+        function getValue(a){
+            const display = document.getElementById("display")
+            if(a=="C")
+            display.value=""
+        else if(a=="=")
+        display.value=eval(display.value)
+        else 
+        display.value +=a;
+        }
+    </script>
+    
+
+</body>
+</html>
